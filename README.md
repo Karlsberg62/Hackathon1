@@ -24,7 +24,10 @@
 # Deployment #
 - - - -
 # Sources #
-- - - -
+[Carosel Image Sources.docx](https://github.com/Karlsberg62/Hackathon1/files/13889520/Carosel.Image.Sources.docx)
+
+[Content Section sources.docx](https://github.com/Karlsberg62/Hackathon1/files/13889524/Content.Section.sources.docx)
+
 # Future Features #
 - - - -
 # Summary #
