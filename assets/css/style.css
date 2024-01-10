@@ -39,6 +39,11 @@ li {
     font-family: "Didact Gothic", sans-serif;
 }
 
+/* Navbar */
+.navbar{
+    background-color: var(--clr-brown);
+}
+
 /* Footer */
 .footer { 
     background-color: var(--clr-black);
@@ -49,7 +54,10 @@ li {
     z-index: 10;
 }
 
-.footer a{
+.footer a,
+.footer a:visited,
+.footer a:active,
+.footer a:link{
     color: var(--clr-white);
 }
 
