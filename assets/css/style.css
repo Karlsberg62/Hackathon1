@@ -1,5 +1,58 @@
-*{
-    background-color: #7ab881;
-background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+@import url('https://db.onlinewebfonts.com/c/87c492db36d96bca8d9d769a21874b83?family=Wales+Sans+Headline'); 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+:root {
+    /* ===== Custom Colors ===== */
+    --clr-red: #ad0e29;
+    --clr-green: #7AB881;
+    --clr-black: #0F1A20;
+    --clr-white: #FFFDF7;
+    --clr-brown: #B5572C;
+    /* ===== Custom Colors ===== */
+}
+
+img,
+picture{
+    width:100%;
+    display: block;
+}
+
+/* Body */
+body {
+    min-height: 100svh;
+    line-height: 1.5;
+    padding: 0;
+    margin:0;
+    background-color: var(--clr-green);
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+/* Fonts */
+h1,
+h2,
+h3 {
+    font-family: "Wales Sans Headline", sans-serif;
+}
+
+p,
+li {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Footer */
+.footer { 
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
+
+.footer a{
+    color: var(--clr-white);
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
