@@ -36,7 +36,12 @@ h3 {
 
 p,
 li {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--clr-brown);
 }
 
 /* Footer */
@@ -49,7 +54,10 @@ li {
     z-index: 10;
 }
 
-.footer a{
+.footer a,
+.footer a:visited,
+.footer a:active,
+.footer a:link{
     color: var(--clr-white);
 }
 
