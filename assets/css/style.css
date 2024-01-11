@@ -38,6 +38,9 @@ p,
 li {
     font-family: "Didact Gothic", sans-serif;
 }
+p {
+    white-space: normal;
+  }
 
 /* Navbar */
 .navbar{
