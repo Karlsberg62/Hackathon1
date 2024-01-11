@@ -11,13 +11,14 @@
     -The site owner goal is to provide unbiased comprehensive rural travel-related content
     -The site owner goal is to increase rural tourism to Wales
     -The site owner goal is to take feedback from users and provide better travel experiences & information to the public
-    -
+    
 - - - -
 # Features #
 - - - -
 # UX/UI #
 
    ## 1. Target Audience
+   
   - People looking to travel rurally
   - People specifically looking for Wales based rural trips
   - Users looking for rural travel tips in Wales
@@ -26,19 +27,23 @@
 
   
  ## 2. Design Choice
+ 
  ## 3. Colour
- ###The link to the source colour pallete chosen is here:
+ 
+ The link to the source colour pallete chosen is here:
  https://code-institute-room.slack.com/archives/C06CLFVSP9D/p1704812616740109
+ 
  ## 4. Fonts
+ 
 ### Heading 1
--Rubik Mono One
+- Rubik Mono One
 ### Main Content 
--Poppins
-
-
-
+- Poppins
+### Home Title & Wild Camping  
+- Wales Sans Headline
 
  ## 5. Structure
+ 
  ## 6. Wireframes
     
   - Main Page Wireframe
@@ -49,19 +54,32 @@
   ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf)
   ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008)
 
-
-
-
-
   - Contact Page Wireframe
 
    ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ba3ef148-a6e7-43c1-af73-962268604127)
 
+ ## 7. Logo
 
+Created by Graeme (Gray) Adamson Logo 1 Logo 2
+
+Used a CSS file and HTML file to create it
+
+CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css and logo.css
+
+Images used are in the assests folder in the logo sub-folder files are Web%20capture_10-1-2024_165527__resized.jpeg (logo) and Web%20capture_10-1-2024_173633__resized.jpeg (logo2)
+
+HTML test harnesses used for the logos is in the main site folder files are logo.html and logo2.html
+
+Team decided on logo2
+
+Basic CSS to describe the shapes is from How TO - CSS Shapes but modified
+
+Used to image-editor.com to resize the image.
 
   
 - - - -
 # Testing #
+
 - HTML Validation
 - CSS Validation
 - Accessibility
