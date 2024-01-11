@@ -18,7 +18,7 @@ picture{
 }
 
 .fill-vh{
-    min-height: calc(100svh - 174px);
+    min-height: calc(100svh - 130px);
 }
 
 /* Body */
@@ -44,6 +44,7 @@ li {
 }
 p {
     white-space: normal;
+    text-wrap: pretty;
   }
 
 /* Navbar */
@@ -68,13 +69,27 @@ p {
 .navbar img {
     display: inline-block;
     max-height: 3rem;
-    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-text{
+    color: var(--clr-white);
+    font-weight: 500;
+}
+
+/* Index Page */
+.bg-wild{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Cards */
 .card-border{
     border: var(--clr-brown) solid 5px !important;
     border-radius: 10px !important;
+}
+
+.card-text{
+    text-wrap: pretty;
 }
 
 /* Footer */
@@ -96,6 +111,12 @@ p {
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+.footer img {
+    display: inline-block;
+    max-height: 3rem;
+    margin-right: 0.5rem;
 }
 
 /* Contact Page */
