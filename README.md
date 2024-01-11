@@ -27,7 +27,17 @@
   
  ## 2. Design Choice
  ## 3. Colour
+ ###The link to the source colour pallete chosen is here:
+ https://code-institute-room.slack.com/archives/C06CLFVSP9D/p1704812616740109
  ## 4. Fonts
+### Heading 1
+-Rubik Mono One
+### Main Content 
+-Poppins
+
+
+
+
  ## 5. Structure
  ## 6. Wireframes
     
