@@ -68,6 +68,12 @@ li {
     padding-right: 0.5rem;
 }
 
+/* Cards */
+.card-border{
+    border: var(--clr-brown) solid 5px !important;
+    border-radius: 10px !important;
+}
+
 /* Footer */
 .footer { 
     background-color: var(--clr-black);
