@@ -17,6 +17,10 @@ picture{
     display: block;
 }
 
+.fill-vh{
+    min-height: 100svh;
+}
+
 /* Body */
 body {
     min-height: 100svh;
@@ -42,6 +46,16 @@ li {
 /* Navbar */
 .navbar{
     background-color: var(--clr-brown);
+    box-shadow: 0px 3px 10px var(--clr-black);
+    font-family: "Wales Sans Headline", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbar img {
+    display: inline-block;
+    max-height: 3rem;
+    padding-right: 0.5rem;
 }
 
 /* Footer */
@@ -63,4 +77,18 @@ li {
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+/* Contact Page */
+
+.contact-container{
+    max-width: min(90%, 50rem);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+}
+
+.contact-icon{
+    color: var(--clr-green);
 }
