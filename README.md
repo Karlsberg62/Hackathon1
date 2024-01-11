@@ -35,7 +35,13 @@
   ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33)
 
   - Article Page Wireframe
-  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/617d8435-ae6f-40c5-a365-d85025ec9609)
+    
+  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf)
+  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008)
+
+
+
+
 
   - Contact Page Wireframe
 
@@ -77,5 +83,8 @@ How this site was deployed
 - Balsamiq was used to create the wireframes during the design process.
 
 # Future Features #
+
+- The development team would like to add a toggle button on the navigation bar that allows the site to be viewed in Welsh. This would be an additional UX design feature to promote to welsh users.
+- The development team would like to implement a review system where users can leave reviews & feedback that would be shown on the site. This requires an API/database that is not currently within our scope.
 - - - -
 # Summary #
