@@ -32,6 +32,8 @@
     Team decided on logo2
 
     Basic CSS to describe the shapes is from *[How TO - CSS Shapes](https://www.w3schools.com/howto/howto_css_shapes.asp)* but modified
+
+    Used to image-editor.com to resize the image.
 - - - -
 # Testing #
 - HTML Validation
