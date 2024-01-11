@@ -18,7 +18,7 @@ picture{
 }
 
 .fill-vh{
-    min-height: 100svh;
+    min-height: calc(100svh - 174px);
 }
 
 /* Body */
@@ -50,6 +50,16 @@ li {
     font-family: "Wales Sans Headline", sans-serif;
     font-size: larger;
     font-weight: 500;
+}
+
+.navbar a,
+.navbar a:hover,
+.navbar a:active{
+    color: var(--clr-white);
+}
+
+.navbar a:hover{
+    text-decoration: underline;
 }
 
 .navbar img {
@@ -85,10 +95,26 @@ li {
     max-width: min(90%, 50rem);
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 5px;
     padding: 2rem 5rem;
 }
 
 .contact-icon{
     color: var(--clr-green);
+}
+
+.btn{
+    background-color: var(--clr-brown) !important; 
+    color: var(--clr-white);
+    border: var(--clr-green) solid 3px;
+    font-family: "Wales Sans Headline", sans-serif;
+}
+
+.btn:hover,
+.btn:active
+{
+    background-color: var(--clr-green) !important;
+    color: var(--clr-white) !important;
+    border: var(--clr-brown) solid 3px !important;
 }
