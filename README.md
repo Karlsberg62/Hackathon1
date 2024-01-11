@@ -77,6 +77,10 @@ How this site was deployed
  - The following photos were used in the carosel: [Carosel Image Sources.docx](https://github.com/Karlsberg62/Hackathon1/files/13889520/Carosel.Image.Sources.docx)
  - The following photos were used in the content: [Content Section sources.docx](https://github.com/Karlsberg62/Hackathon1/files/13889524/Content.Section.sources.docx)
 
+## HomePage Content. 
+-  This site was used as the key reference for the home page content. https://wanderingourworld.com/wild-camping-in-wales/
+The Text for the Home Page Content can be found here - https://docs.google.com/document/d/1Bl_0SjuOEjraYlO66AGGKhX8v8vlVn-y2hpFr8K7KuM/edit?usp=sharing
+
 ## Content
 - The fonts were imported from Google Fonts.
 - Font awesome was used to add icons for UX purposes.
