@@ -46,7 +46,8 @@ p {
     white-space: normal;
     text-wrap: pretty;
   }
-
+  
+/*Text Colour */
 .white-text {
     color:#f5fefd;
 }
