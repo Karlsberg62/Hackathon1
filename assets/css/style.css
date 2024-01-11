@@ -47,6 +47,14 @@ p {
     text-wrap: pretty;
   }
 
+.white-text {
+    color:#f5fefd;
+}
+
+.black-text {
+    color:#000000;
+}
+
 /* Navbar */
 .navbar{
     background-color: var(--clr-brown);
