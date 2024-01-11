@@ -127,3 +127,12 @@ p {
     color: var(--clr-white) !important;
     border: var(--clr-brown) solid 3px !important;
 }
+
+/* Media Query: Small phones and below (max 430 and below) */ 
+@media screen and (max-width: 430px) {
+
+#one-col {
+    display:block;
+}
+
+}
