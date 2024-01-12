@@ -164,6 +164,14 @@ p {
 /* Carousel */
 .carousel-container {
     width: min(90%, 80rem);
+
+}
+
+/* Guides Page */
+.camping-map {
+    width: min(100%, 600px);
+    height: 450px;
+    border: 0;
 }
 
 /* Media Query: Small phones and below (max 430 and below) */
