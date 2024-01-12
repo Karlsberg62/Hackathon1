@@ -81,6 +81,7 @@ Used to image-editor.com to resize the image.
 # Testing #
 
 - HTML Validation
+Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
 - CSS Validation
 - Accessibility
 - Device Testing
