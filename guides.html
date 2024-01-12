@@ -23,10 +23,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="guides.html"><i class="fa-solid fa-book-open"></i>Guide</a>
+                <a class="nav-link active" href="guides.html"><i class="fa-solid fa-book-open"></i>Guide</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
@@ -38,10 +38,13 @@
 </header>
 <!-- Main -->
   <main>
-    <div class="container bg-light">
-      <div class="row" id="camping">
-        <div class="col">
-          <h1>Camping</h1><img src="assets/images/camping.webp" class="img-fluid. max-width:80%" alt="picture of tent with nice view">
+    <div class="container my-3 ">
+      <div class="row my-3 bg-wild rounded" id="camping">
+        <div class="col-sm-12 order-sm-1 col-lg-6 order-lg-1 my-auto">
+          <img class="rounded mx-auto my-3" src="assets/images/camping.webp" alt="picture of tent with nice view">
+        </div>
+        <div class="col-sm-12 order-sm-2 col-lg-6 order-lg-2 ">
+          <h1>Camping</h1>
             <p>
             If you're looking for an opportunity to experience the beauty of Welsh countryside in its raw form, camping in Wales is a great way to do so.
             Wales has a lot to offer, from stunning coastlines to dramatic mountain scenery and ancient woodlands. 
@@ -60,11 +63,26 @@
             <a href="https://www.glan-y-mor.co.uk"  target="_blank" class="black-text">Glan-Y-Mor Camp Site</a> is a short walk from Britain's smallest city with spectacular views of St Brides Bay.
             It's also within easy walking distance of the Coastal Path for those who want to continue their journey on foot.
             </p>
+            <div class="accordion mb-2" id="accordionExample">
+              <div class="accordion-item" >
+                <h2 class="accordion-header " >
+                  <button class="accordion-button text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                    Map
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" >
+                  <div class="accordion-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.5163641877193!2d-6.18122552272058!3d53.298198072275454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e99733f3617%3A0x7ff7202fe3dea603!2sCode%20Institute!5e0!3m2!1sen!2suk!4v1704898793781!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
         </div>
       </div>
-      <div class="row" id="yha">
-        <div class="col">
-          <h1>Youth Hostel</h1><img src="assets/images/pods.webp" class="img-fluid. max-width:80%" alt="picture of camping pods in green field with trees behind them">
+      <div class="row my-3 bg-wild rounded" id="yha">
+        <div class="col-sm-12 order-sm-2 col-lg-6 order-lg-1">
+          <h1>Youth Hostel</h1>
           <p>
             Youth hostel accommodations are diverse and cater to various preferences and budgets. From glamping pods to grand castles, there's something for everyone. 
             For those who love the outdoors but don't want to rough it, glamping pods are a great option. These cozy wooden cabins provide protection from the elements while still
@@ -81,10 +99,16 @@
             stopping-off point into modern Wales. It also offers the opportunity for larger groups to book in, for those who are planning a larger excursion.
             </p>
         </div>
+        <div class="col-sm-12 order-sm-1 col-lg-6 order-lg-2 my-auto">
+          <img class="rounded mx-auto my-3" src="assets/images/pods.webp" class="img-fluid. max-width:80%" alt="picture of camping pods in green field with trees behind them">
+        </div>
       </div>
-      <div class="row" id="caravan">
-        <div class="col">
-          <h1>Touring Caravan</h1><img src="assets/images/barcdy-touring-caravan-camping-park--50.webp" class="img-fluid. max-width:80%" alt="picture of a short row of caravans with woodland behind.">
+      <div class="row my-3 bg-wild rounded" id="caravan">
+        <div class="col-sm-12 order-sm-1 col-lg-6 order-lg-1 my-auto">
+          <img class="rounded mx-auto my-3" src="assets/images/barcdy-touring-caravan-camping-park--50.webp" class="img-fluid. max-width:80%" alt="picture of a short row of caravans with woodland behind.">
+        </div>
+        <div class="col-sm-12 order-sm-2 col-lg-6 order-lg-2">
+          <h1>Touring Caravan</h1>
           <p>
             If you prefer to have mobile accommodation while enjoying a relaxing stay close to nature in Wales, there are many options to choose from.
           </p>
