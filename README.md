@@ -41,7 +41,10 @@
 - - - -
  ## 2. Design Choice
  
- ##  Colour
+ ##  Colour Scheme
+
+ - A earthy/rural palette was picked by the team in fitting with the outdoors nature and rural travelling to align with our target audience 
+ - Inspired by https://coolors.co/cc3f0c-72705b-0f1a20-a1cca5-fffdf7
  
  ##  Fonts
  
@@ -76,14 +79,61 @@
 - - - -
 # Testing #
 
-- HTML Validation
-Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
-- CSS Validation
+## HTML Validation
+- Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
+  
+## CSS Validation
     Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
-- Accessibility
-- Device Testing
-- Browser Testing
-- Testing user stories
+## Accessibility
+
+## Device Testing
+
+We have tested the site with the following devices:
+
+- Android Google Pixel 5
+- Desktop
+- Android Tablet
+- Chrome Developer Tools (Simulating for all available device options)
+
+The site functioned as expected except for the loading on the guide page with the map & Youth Hostel content on smaller devices.
+  
+## Browser Testing
+
+Testing has been done on the following browsers:
+
+- Chrome (& Developer tools)
+- Opera
+- Safari
+
+## Testing user stories
+
+## Known Bugs
+
+## During development, we found these bugs and fixed them:
+
+### Nav bar disapperance
+
+- On smaller devices, the navbar burger logo to indicate the nav bar would disappear when switching to the guide page.
+- To fix this issue, we chekced the Home & Contact nav bar, realised they had no issues and copied the code back into the guide HTML.
+
+### Carousel Images poor quality on smaller devices
+
+- The carousel originally loaded on all devices, however the images appeared pixelated & poorly rendered.
+- To fix this issue, as a design choice, we decided to remove the carousel feature to mobile users to keep a high quality of user experience.
+
+## During development and testing, these are the current bugs:
+
+### Guide Page Map on smaller devices
+
+- The map, once toggled, spills over into excess space. While the user can still use the map and function, this is not a good user experience & would be reviewed in our next sprint if we had time
+
+### Youth Hostel Content on smaller devices
+
+- The content when deployed on a smaller device reshuffles the image to the bottom of the container.
+- The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
+
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ca3315f9-de44-4588-8d92-ac96145639fc)
+
 - - - -
 # Deployment #
 
@@ -109,12 +159,17 @@ How this site was deployed
 -  The Text for the Home Page Content can be found here - https://docs.google.com/document/d/1Bl_0SjuOEjraYlO66AGGKhX8v8vlVn-y2hpFr8K7KuM/edit?usp=sharing
 
 ## Content
+
+- The colour scheme was helped with the use of: https://coolors.co
 - The fonts were imported from Google Fonts.
+- The Wales Sans Headline font was imported specifically from: https://www.onlinewebfonts.com/download/87c492db36d96bca8d9d769a21874b83
 - Font awesome was used to add icons for UX purposes.
 - Balsamiq was used to create the wireframes during the design process.
+- The background texture is from: https://www.transparenttextures.com/
 
 ## Code
 - The Logo CSS code orginated from here: https://www.w3schools.com/howto/howto_css_shapes.asp
+- The HTML & CSS uses Bootstrap Version 5.3: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 # Future Features #
 
