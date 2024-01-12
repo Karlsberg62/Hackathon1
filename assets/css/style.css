@@ -1,4 +1,4 @@
-@import url('https://db.onlinewebfonts.com/c/87c492db36d96bca8d9d769a21874b83?family=Wales+Sans+Headline'); 
+@import url('https://db.onlinewebfonts.com/c/87c492db36d96bca8d9d769a21874b83?family=Wales+Sans+Headline');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 :root {
@@ -12,12 +12,12 @@
 }
 
 img,
-picture{
-    width:100%;
+picture {
+    width: 100%;
     display: block;
 }
 
-.fill-vh{
+.fill-vh {
     min-height: calc(100svh - 140px);
 }
 
@@ -26,7 +26,7 @@ body {
     min-height: 100svh;
     line-height: 1.5;
     padding: 0;
-    margin:0;
+    margin: 0;
     background-color: var(--clr-green);
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
 }
@@ -44,22 +44,23 @@ p,
 li {
     font-family: "Didact Gothic", sans-serif;
 }
+
 p {
     white-space: normal;
     text-wrap: pretty;
-  }
-  
+}
+
 /*Text Colour */
 .white-text {
-    color:#FFFDF7;
+    color: #FFFDF7;
 }
 
 .black-text {
-    color:#0F1A20;
+    color: #0F1A20;
 }
 
 /* Navbar */
-.navbar{
+.navbar {
     background-color: var(--clr-brown);
     box-shadow: 0px 3px 10px var(--clr-black);
     font-family: "Wales Sans Headline", sans-serif;
@@ -69,11 +70,11 @@ p {
 
 .navbar a,
 .navbar a:hover,
-.navbar a:active{
+.navbar a:active {
     color: var(--clr-white);
 }
 
-.navbar a:hover{
+.navbar a:hover {
     text-decoration: underline;
 }
 
@@ -83,45 +84,45 @@ p {
     margin-right: 0.5rem;
 }
 
-.nav-text{
+.nav-text {
     color: var(--clr-white);
     font-weight: 500;
 }
 
 /* Index Page */
-.bg-wild{
+.bg-wild {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Cards */
-.card-border{
+.card-border {
     border: var(--clr-brown) solid 5px !important;
     border-radius: 10px !important;
 }
 
-.card-text{
+.card-text {
     text-wrap: pretty;
     text-align: left;
 }
 
 /* Footer */
-.footer { 
+.footer {
     background-color: var(--clr-black);
     color: var(--clr-white);
-    position: relative; 
-    bottom: 0; 
-    left: 0; 
+    position: relative;
+    bottom: 0;
+    left: 0;
     z-index: 10;
 }
 
 .footer a,
 .footer a:visited,
 .footer a:active,
-.footer a:link{
+.footer a:link {
     color: var(--clr-white);
 }
 
-.footer a:hover{
+.footer a:hover {
     text-decoration: underline;
 }
 
@@ -133,7 +134,7 @@ p {
 
 /* Contact Page */
 
-.contact-container{
+.contact-container {
     max-width: min(90%, 50rem);
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 1rem;
@@ -142,35 +143,34 @@ p {
     padding: 2rem 5rem;
 }
 
-.contact-icon{
+.contact-icon {
     color: var(--clr-green);
 }
 
-.btn{
-    background-color: var(--clr-brown) !important; 
+.btn {
+    background-color: var(--clr-brown) !important;
     color: var(--clr-white);
     border: var(--clr-green) solid 3px;
     font-family: "Wales Sans Headline", sans-serif;
 }
 
 .btn:hover,
-.btn:active
-{
+.btn:active {
     background-color: var(--clr-green) !important;
     color: var(--clr-white) !important;
     border: var(--clr-brown) solid 3px !important;
 }
 
 /* Carousel */
-.carousel-container{
+.carousel-container {
     width: min(90%, 80rem);
 }
 
-/* Media Query: Small phones and below (max 430 and below) */ 
+/* Media Query: Small phones and below (max 430 and below) */
 @media screen and (max-width: 430px) {
 
-#one-col {
-    display:block;
-}
+    #one-col {
+        display: block;
+    }
 
 }

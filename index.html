@@ -1,167 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Wales</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Wales</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Self CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Self CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Font Awesome script -->
-    <script src="https://kit.fontawesome.com/668de150a5.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome script -->
+  <script src="https://kit.fontawesome.com/668de150a5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand " href="#">
-                <img class="rounded" src="./assets/logo/logo2.png" alt="Logo"></a><h4 class="nav-text">Wild Wales</h4>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="guides.html"><i class="fa-solid fa-book-open"></i>Guide</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <!-- Main -->
-    <main>
-        <div class="container carousel-container my-3 d-none d-md-block">
-          <div id="carouselExampleCaptions" class="carousel slide shadow-lg" data-bs-theme="dark" >
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/coastal path walk.webp" class="d-block w-80 rounded" alt="https://placeholder.co/400x300">
-                <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
-                  <h5>Welsh Coast Path</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item ">
-                <img src="assets/images/red-kite-tree-tents.webp" class="d-block w-80 rounded" alt="https://placeholder.co/400x300">
-                <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
-                  <h5>Camping in style!</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/YHA St Briavels.webp" class="d-block w-80 rounded" alt="https://placeholder.co/400x300">
-                <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
-                  <h5>Cozy youth hostels</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon " aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row" id="one-col">
-            <div class="col-sm-12 col-lg-4" >
-              <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
-                <img src="assets/images/camping.webp" class="card-img-top" alt="Camping">
-                <div class="card-body">
-                  <h5 class="card-title">Camping</h5>
-                  <p class="card-text">If you're looking for an opportunity to experience the beauty of Welsh countryside in its raw form, 
-                    camping in Wales is a great way to do so. Wales has a lot to offer, from stunning coastlines to 
-                    dramatic mountain scenery and ancient woodlands.</p>
-                  <a href="guides.html#camping" class="btn btn-primary">Go camping!</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4">
-              <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
-                <img src="assets/images/pods.webp" class="card-img-top" alt="YHA Pods">
-                <div class="card-body">
-                  <h5 class="card-title">Youth Hostel</h5>
-                  <p class="card-text">Youth hostel accommodations are diverse and cater to a wide range of preferences and budgets.
-                    From glamping pods to grand castles, there's something for everyone. For those who love the 
-                    outdoors but don't want to rough it, glamping pods are a great option. YHA Manobier on the Pembrokeshire Coast, is an ideal place to enjoy a long 
-                    weekend in a glamping pod.</p>
-                  <a href="guides.html#yha" class="btn btn-primary">Go YHA!</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-4">
-              <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
-                <img src="assets/images/barcdy-touring-caravan-camping-park--50.webp" class="card-img-top" alt="caravans">
-                <div class="card-body">
-                  <h5 class="card-title">Caravans</h5>
-                  <p class="card-text">If you prefer to have a mobile accommodation while enjoying a relaxing stay close to nature 
-                    in Wales, there are many options to choose from. One such location is the Barcdy Touring 
-                    Caravan and Camping Park in Snowdonia. </p>
-                  <a href="guides.html#caravan" class="btn btn-primary">Go caravan!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row bg-wild rounded my-3 shadow-lg">
-            <h1 class="text-center">Wild Camping</h1>
-              <p>
-              Wild camping is the term used for camping in natural or remote areas without designated campsites or facilities. It is a great way to enjoy the outdoors and experience nature, but it comes with some legal and ethical issues.
-             In Wales, wild camping is not legally permitted except with the landowner's permission and camping on a beach is not tolerated regardless of land owners permission and authorities do not tolerate beach camping.
-          
-             If you are interested in wild camping in Wales, find out more <a href="https://wanderingourworld.com/wild-camping-in-wales/" target="_blank" class="black-text">here.</a>
-            </p>
-             <p>
-             Alternatively, consider staying in one of Wales's many official campsites, youth hostels, or touring caravan sites. These places offer a range of facilities and amenities, as well as an opportunity to explore the beautiful scenery and attractions of the country.
-            </p>
-          </div>
-        </div>
-    </main>
-    <!-- Footer -->
-    <footer class="">
-      <div class="container-fluid footer">
-        <div class="row">
-          <div class="col">
-            <ul class="nav justify-content-left my-1">
-              <li class="nav-item"><a class="navbar-brand" href="#">
-                <img class="rounded" src="./assets/logo/logo2.png" alt="Logo">
-              </a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2"></a></li>
-            </ul>
-          </div>
-          <div class="col">
-            <ul class="nav justify-content-center my-1">
-              <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-solid fa-arrow-up"></i>Top Of Page</a></li>
-            </ul>
-          </div>
-          <div class="col">
-            <ul class="nav float-end my-2">
-              <li class="nav-item"><i class="fa-sharp fa-regular fa-copyright"></i>Copyright M4 Hacker heroes</li>
-            </ul>
-          </div>
+  <!-- Header -->
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#">
+          <img class="rounded" src="./assets/logo/logo2.png" alt="Logo"></a>
+        <h4 class="nav-text">Wild Wales</h4>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="guides.html"><i class="fa-solid fa-book-open"></i>Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
-    <!-- Bootstrap Script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <div class="container carousel-container my-3 d-none d-md-block">
+      <div id="carouselExampleCaptions" class="carousel slide shadow-lg" data-bs-theme="dark">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/coastal path walk.webp" class="d-block w-80 rounded"
+              alt="https://placeholder.co/400x300">
+            <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
+              <h5>Welsh Coast Path</h5>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="assets/images/red-kite-tree-tents.webp" class="d-block w-80 rounded"
+              alt="https://placeholder.co/400x300">
+            <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
+              <h5>Camping in style!</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/YHA St Briavels.webp" class="d-block w-80 rounded"
+              alt="https://placeholder.co/400x300">
+            <div class="carousel-caption d-none d-md-block bg-wild rounded-5">
+              <h5>Cozy youth hostels</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" id="one-col">
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
+            <img src="assets/images/camping.webp" class="card-img-top" alt="Camping">
+            <div class="card-body">
+              <h5 class="card-title">Camping</h5>
+              <p class="card-text">If you're looking for an opportunity to experience the beauty of Welsh countryside in
+                its raw form,
+                camping in Wales is a great way to do so. Wales has a lot to offer, from stunning coastlines to
+                dramatic mountain scenery and ancient woodlands.</p>
+              <a href="guides.html#camping" class="btn btn-primary">Go camping!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
+            <img src="assets/images/pods.webp" class="card-img-top" alt="YHA Pods">
+            <div class="card-body">
+              <h5 class="card-title">Youth Hostel</h5>
+              <p class="card-text">Youth hostel accommodations are diverse and cater to a wide range of preferences and
+                budgets.
+                From glamping pods to grand castles, there's something for everyone. For those who love the
+                outdoors but don't want to rough it, glamping pods are a great option. YHA Manobier on the Pembrokeshire
+                Coast, is an ideal place to enjoy a long
+                weekend in a glamping pod.</p>
+              <a href="guides.html#yha" class="btn btn-primary">Go YHA!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="card mx-auto my-3 card-border text-center" style="width: 90%;">
+            <img src="assets/images/barcdy-touring-caravan-camping-park--50.webp" class="card-img-top" alt="caravans">
+            <div class="card-body">
+              <h5 class="card-title">Caravans</h5>
+              <p class="card-text">If you prefer to have a mobile accommodation while enjoying a relaxing stay close to
+                nature
+                in Wales, there are many options to choose from. One such location is the Barcdy Touring
+                Caravan and Camping Park in Snowdonia. </p>
+              <a href="guides.html#caravan" class="btn btn-primary">Go caravan!</a>
+            </div>
+      <div class="row bg-wild rounded my-3 shadow-lg">
+        <h1 class="text-center">Wild Camping</h1>
+        <p>
+          Wild camping is the term used for camping in natural or remote areas without designated campsites or
+          facilities. It is a great way to enjoy the outdoors and experience nature, but it comes with some legal and
+          ethical issues.
+          In Wales, wild camping is not legally permitted except with the landowner's permission.
+          If you are interested in wild camping in Wales, find out more <a
+            href="https://wanderingourworld.com/wild-camping-in-wales/" target="_blank" class="black-text">here.</a>
+        </p>
+        <p>
+          Alternatively, consider staying in one of Wales's many official campsites, youth hostels, or touring caravan
+          sites. These places offer a range of facilities and amenities, as well as an opportunity to explore the
+          beautiful scenery and attractions of the country.
+        </p>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="">
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col">
+          <ul class="nav justify-content-left my-1">
+            <li class="nav-item"><a class="navbar-brand" href="#">
+                <img class="rounded" src="./assets/logo/logo2.png" alt="Logo">
+              </a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2"></a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav justify-content-center my-1">
+            <li class="nav-item"><a href="#" class="nav-link px-2"><i class="fa-solid fa-arrow-up"></i>Top Of Page</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav float-end my-2">
+            <li class="nav-item"><i class="fa-sharp fa-regular fa-copyright"></i>Copyright M4 Hacker heroes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap Script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
