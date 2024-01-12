@@ -18,6 +18,20 @@
 - The site owner goal is to take feedback from users and provide better travel experiences & information to the public
 - - - -
 # Features #
+
+## Index Page
+### Carousel
+The site features a way to display information on how to best tour Wales, it’s home page prominently features a carousel of hero images that can display the best that Wales has to offer. 
+### Cards
+Below that are 3 cards that feature guides available with a short snippet of information and you can quickly choose the guide you wish rather than browsing the entire guide page. Selecting the guide you want will send you to the correct section of the guides page via an ID.  The cards are responsive going into a single column on a small screen and showing as a row of 3 on medium and larger screens.
+Below that is some information regarding Welsh rules on wild camping.
+
+## Guides Page
+The guides page is multiple pages in one and can be expanded downwards with further guides. It is responsive showing as a single column on smaller screens and two on medium and larger screens. The order on smaller screens is image > text > image > text however on medium and larger screens it will alternate to make the site more visually interesting and balanced. The guides have an accordion element from bootstrap that can be used to store extra information, a map iframe has been used as an example.
+
+## Contact page
+This page has used the min() function to fluidly size for many screen sizes at and between breakpoints to ensure a consistent view, the body is size to the viewport to ensure the footer remains at the bottom of the page without using a fixed position as fixed position cause issues with overlapping of the form and footer at smaller screen sizes
+
 - - - -
 # UX/UI #
 
@@ -52,26 +66,30 @@
  
  ##  Fonts
  
- ### Heading 1
- - Rubik Mono One
  ### Main Content 
- - Poppins
+ - Didact Gothic
  ### Home Title & Wild Camping  
  - Wales Sans Headline
  
  ## Wireframes
     
   - Main Page Wireframe
-  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33)
+  <div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/2dba9214-6f88-4ed3-97f6-741d84b9ec33" alt="Main page wireframe">
+</div>
 
   - Article Page Wireframe
-    
-  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf)
-  ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008)
+
+  <div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9896a627-c591-4829-b0ab-add8ffb007bf" alt="Wireframe">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/9f047ef6-5fb3-4394-8fae-22f964d49008" alt="Wireframe">
+  </div>
+  
 
   - Contact Page Wireframe
-
-   ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ba3ef148-a6e7-43c1-af73-962268604127)
+<div align="center">
+  <img src="https://github.com/Karlsberg62/Hackathon1/assets/149387764/ba3ef148-a6e7-43c1-af73-962268604127" alt="Wireframe">
+</div>
 
  ## Logo
 
