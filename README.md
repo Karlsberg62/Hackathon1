@@ -82,6 +82,7 @@
   
 ## CSS Validation
 - Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
+-  Test W3C Validation CSS style sheet validation https://docs.google.com/document/d/1t1xgVG540joh549TvAwI0CXQ889QDUD3y8Qt0xqJFtU/edit?usp=sharing
 
 ## Accessibility
 - We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
