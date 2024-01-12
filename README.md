@@ -146,7 +146,7 @@ Site Example:
 User Story:
 ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/14cdc8b8-7450-46d2-bde5-673bbe6a3ecc)
 Site Example:
-
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e9ecbba4-dd1c-43a4-b6a1-be45d7c765cd)
 --
 5. 
 User Story:
@@ -209,6 +209,10 @@ How this site was deployed
 - Any changes pushed to the main branch will take effect on the live project
 
 - The live link is here: https://karlsberg62.github.io/Hackathon1/
+
+- We used an agile methodology by using early deployment. We could see every change on a live site to aid our development process
+- ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/cad5ad9d-e0df-491f-982b-198d6f917797)
+
 - - - -
 # Sources #
 
