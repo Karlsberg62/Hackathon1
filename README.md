@@ -122,15 +122,55 @@ Testing has been done on the following browsers:
 
 ## Testing user stories
 
--
--
--
--
--
--
--
--
--
+We tested our site vs the user stories: 
+
+1. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e52c926b-713d-4ba0-823e-1f58e58e711b)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+--
+2. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/2561b52a-af2b-4239-a386-f87a8ab0c498)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/b590ea37-34a5-4404-a1ed-fb8745a28e9e)
+--
+3.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/649049fb-25a6-4035-8e80-49bb07d24543)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/30c82c1e-28ea-4403-8b10-3371da297aff)
+--
+4.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/14cdc8b8-7450-46d2-bde5-673bbe6a3ecc)
+Site Example:
+
+--
+5. 
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/79e8300a-3523-485e-8304-147c1d4a3e81)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e0ad468c-ac68-40ef-a7ef-3a08fbedf058)
+--
+6.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/3e4f9313-b077-40a9-bd7f-c287907d2e2d)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/89967414-9cbc-4e35-a16c-7bcc879abb2e)
+--
+7.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0f8cf269-4724-478c-b033-4228330d7cc1)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/8977ba5d-0f7b-4c43-9946-1ae94c78ff7e)
+--
+8.
+User Story:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/e7e29e5f-ee27-4c50-bd9c-176bc30fd820)
+Site Example:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0b6c59b5-dc37-4144-b349-e00e06ab50e0)
 
 ## Known Bugs
 
