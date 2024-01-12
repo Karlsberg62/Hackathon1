@@ -100,6 +100,7 @@ p {
 
 .card-text{
     text-wrap: pretty;
+    text-align: left;
 }
 
 /* Footer */
