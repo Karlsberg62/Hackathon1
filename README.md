@@ -161,6 +161,7 @@ Site Example:
 ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/89967414-9cbc-4e35-a16c-7bcc879abb2e)
 --
 7.
+- This user story combines the Must Have User Stories for Outsourcing content, YHA Booking Link & Hyperlinking Content
 User Story:
 ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/0f8cf269-4724-478c-b033-4228330d7cc1)
 Site Example:
