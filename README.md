@@ -105,6 +105,12 @@ Testing has been done on the following browsers:
 - Opera
 - Safari
 
+## Testing Breakdown
+- We completed the following tests on all mentioned devices and browsers including the steps & outcomes from said tests. Any noted bugs are explained below.
+  
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/bb6a250c-5003-462c-a133-506bd18537bf)
+
+
 ## Testing user stories
 
 ## Known Bugs
