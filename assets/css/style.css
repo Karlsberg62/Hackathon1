@@ -34,8 +34,10 @@ body {
 /* Fonts */
 h1,
 h2,
-h3 {
-    font-family: "Wales Sans Headline", sans-serif;
+h3,
+h4,
+h5 {
+    font-family: "Wales Sans Headline", sans-serif !important;
 }
 
 p,
@@ -48,11 +50,11 @@ p {
   }
 
 .white-text {
-    color:#f5fefd;
+    color:#FFFDF7;
 }
 
 .black-text {
-    color:#000000;
+    color:#0F1A20;
 }
 
 /* Navbar */
@@ -155,6 +157,11 @@ p {
     background-color: var(--clr-green) !important;
     color: var(--clr-white) !important;
     border: var(--clr-brown) solid 3px !important;
+}
+
+/* Carousel */
+.carousel-container{
+    width: min(90%, 80rem);
 }
 
 /* Media Query: Small phones and below (max 430 and below) */ 
