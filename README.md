@@ -2,15 +2,20 @@
 - - - -
 # Project Goals #
 ## 1. User goals
--The users goal is to gather information about popular rural travel destinations in Wales
--The users goal is to being able to navigate the website quickly and efficently to our content
--The users goal is to use our information presented to make their travel decisions 
--The users goal is to find their rural destination and research more about events, food, local history and location
+- The users goal is to gather information about popular rural travel destinations in Wales
+
+- The users goal is to being able to navigate the website quickly and efficently to our content
+
+- The users goal is to use our information presented to make their travel decisions 
+
+- The users goal is to find their rural destination and research more about events, food, local history and location
     
 ## 2. Site Owner Goals
--The site owner goal is to provide unbiased comprehensive rural travel-related content
--The site owner goal is to increase rural tourism to Wales
--The site owner goal is to take feedback from users and provide better travel experiences & information to the public
+- The site owner goal is to provide unbiased comprehensive rural travel-related content
+
+- The site owner goal is to increase rural tourism to Wales
+
+- The site owner goal is to take feedback from users and provide better travel experiences & information to the public
 - - - -
 # Features #
 - - - -
@@ -80,7 +85,7 @@
 ## HTML Validation
 - Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
 - The missing P element & the duplicate attribute on class in the Guide.html has been resolved.
-- any issues with the index.html & contact.html page have remained as future fixes.
+- Any issues with the index.html & contact.html page have remained as future fixes.
   
 ## CSS Validation
 - Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
