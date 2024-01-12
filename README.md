@@ -82,6 +82,7 @@ Used to image-editor.com to resize the image.
 
 - HTML Validation
 - CSS Validation
+    Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
 - Accessibility
 - Device Testing
 - Browser Testing
