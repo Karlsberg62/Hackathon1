@@ -11,7 +11,6 @@
     -The site owner goal is to provide unbiased comprehensive rural travel-related content
     -The site owner goal is to increase rural tourism to Wales
     -The site owner goal is to take feedback from users and provide better travel experiences & information to the public
-    
 - - - -
 # Features #
 - - - -
@@ -75,7 +74,6 @@
 - CSS file is in the assets folder in the CSS sub-folder which were used to generate logo files are logo.css and logo.css
 - Images used are in the assests folder in the logo sub-folder files are Web%20capture_10-1-2024_165527__resized.jpeg (logo) and Web%20capture_10-1-2024_173633__resized.jpeg (logo2)
 - Team decided on logo2
-
 - - - -
 # Testing #
 
@@ -83,8 +81,11 @@
 - Initial HTML Validation was performed using the W3C Mark up service and the results can be found in this document. https://docs.google.com/document/d/1bpeozgiIdqKK1ukf-Le-pkrP0iTv6WHeWEdsZ5wpVN4/edit?usp=sharing
   
 ## CSS Validation
-    Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
+- Initial W3C CSS style sheet validation link https://docs.google.com/document/d/1PLn-LXFHKpIaeiYMOUwEe_7h6ZVjw1cCxucjCS2Kp-w/edit?usp=sharing
+
 ## Accessibility
+- We entered our website through AccessScan to check we were compliant with with ADA standards. Our website is ADA-compliant as shown below:
+![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/da66d426-6223-48f4-afc3-1a122a9ad6c0)
 
 ## Device Testing
 
@@ -133,7 +134,6 @@ Testing has been done on the following browsers:
 - The text in the last paragraph changes to the default font rather than our applied styling in the CSS folder. This is specific to Android.
 
 ![image](https://github.com/Karlsberg62/Hackathon1/assets/149387764/ca3315f9-de44-4588-8d92-ac96145639fc)
-
 - - - -
 # Deployment #
 
@@ -145,7 +145,6 @@ How this site was deployed
 - Any changes pushed to the main branch will take effect on the live project
 
 - The live link is here: https://karlsberg62.github.io/Hackathon1/
-
 - - - -
 # Sources #
 
@@ -159,7 +158,6 @@ How this site was deployed
 -  The Text for the Home Page Content can be found here - https://docs.google.com/document/d/1Bl_0SjuOEjraYlO66AGGKhX8v8vlVn-y2hpFr8K7KuM/edit?usp=sharing
 
 ## Content
-
 - The colour scheme was helped with the use of: https://coolors.co
 - The fonts were imported from Google Fonts.
 - The Wales Sans Headline font was imported specifically from: https://www.onlinewebfonts.com/download/87c492db36d96bca8d9d769a21874b83
@@ -172,7 +170,6 @@ How this site was deployed
 - The HTML & CSS uses Bootstrap Version 5.3: https://getbootstrap.com/docs/5.3/getting-started/introduction/
 
 # Future Features #
-
 - The development team would like to add a toggle button on the navigation bar that allows the site to be viewed in Welsh. This would be an additional UX design feature to promote to welsh users.
 - The development team would like to implement a review system where users can leave reviews & feedback that would be shown on the site. This requires an API/database that is not currently within our scope.
 - - - -
