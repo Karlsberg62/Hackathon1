@@ -14,6 +14,35 @@
 
   <!-- Font Awesome script -->
   <script src="https://kit.fontawesome.com/668de150a5.js" crossorigin="anonymous"></script>
+
+  <!-- EmailJS script -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('KTp6qQT45uX7GNEbb');
+      })();
+  </script>
+  <script type="text/javascript">
+      window.onload = function() {
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              emailjs.send('service_9unoa7c', 'template_7uk20hi', {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                content: document.getElementById("content").value, 
+            })
+                  .then(function() {
+                      console.log('SUCCESS!');
+                      document.getElementById("page-icon").outerHTML = "<i id='page-icon' class='fa-solid fa-check fa-bounce'></i>"
+                      alert("success");
+                  }, function(error) {
+                      console.log('FAILED...', error);
+                      alert("error");
+                  });
+          });
+      }
+  </script>
 </head>
 
 <body>
@@ -50,7 +79,7 @@
     <div class="container contact-container">
       <div class="row">
         <div class="col text-center contact-icon display-1">
-          <i class="fa-solid fa-tree"></i>
+          <i id="page-icon" class="fa-solid fa-tree"></i>
         </div>
       </div>
       <div class="row">
@@ -60,7 +89,7 @@
       </div>
       <div class="row">
         <div class="col ">
-          <form class="" action="https://formdump.codeinstitute.net" method="POST" target="_blank">
+          <form id = "contact-form" class="" action="https://formdump.codeinstitute.net" method="POST" target="_blank">
             <input type="text" name="name" id="name" class="form-control mb-3"
               placeholder="Name" required>
             <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp"
